@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+	<title></title>
+</head>
+<body class="padding-top-50 bg-img-green-cup">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav_menu_items" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="singlePageIndex.html">Kylo Nelson</a>
+	    </div><!-- navbar-header -->
+	    <div class="collapse navbar-collapse" id="nav_menu_items">
+	      <ul class="nav navbar-nav">
+	        <li><a href="index.html">Home</a></li>
+	        <li><a href="work.html">Work</a></li>
+	        <li class="active"><a href="school.html">School <span class="sr-only">(current)</span></a></li>
+	        <li><a href="fun.html">Fun</a></li>
+		      <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="photos.html">Photo's</a></li>
+	          </ul>
+	        </li>	        
+	      </ul>
+	    </div><!-- navbar-collapse -->
+	  </div><!-- container-fluid -->
+	</nav>
+	<div class="jumbotron bg-img-brushed-alu-dark">
+	  <div class="container">
+	    <h1 class="text-center">Schooling</h1>
+	  </div><!-- container -->
+	</div><!-- jumbotron -->
+	<div class="panel-group margin-bottom-5" id="accordion" role="tablist" aria-multiselectable="true">
+		<div class="panel panel-default">
+			<div class="panel-heading bg-img-concrete-seamless" role="tab" id="schoolHead1" data-target="#school1">
+				<h2 class="panel-title">
+				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#school1" aria-expanded="false" aria-controls="school1">
+					<div class="row">
+						<div class="positionTitle col-sm-offset-1 col-sm-3">B.S. Chemistry</div>
+						<div class="company col-sm-4">University of Utah</div>
+						<div class="timeframe col-sm-3">Graduated May 2013</div>
+						<div class="col-sm-1"><span class="glyphicon glyphicon-menu-down"></span></div>
+					</div><!-- row -->
+				</a>
+				</h2>
+			</div><!-- panel-heading -->
+			<div id="school1" class="panel-collapse collapse out" role="tabpanel" aria-labelledby="schoolHead1">
+				<div class="panel-body">
+					<p class="col-sm-offset-1 col-sm-10">Professional emphasis, completed all the advances labs along with radiochemistry course.  Experience with analytical equipment and techniques (HPLC, GC, GC-MS, TLC, pH) in a lab setting.</p>
+				</div><!-- panel-body -->
+			</div><!-- panel-collapse -->
+		</div><!--  panel -->
+		<div class="panel panel-default">
+			<div class="panel-heading bg-img-concrete-seamless" role="tab" id="schoolHead2" data-target="#school2">
+				<h2 class="panel-title">
+				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#school2" aria-expanded="false" aria-controls="school2">
+					<div class="row">
+						<div class="positionTitle col-sm-offset-1 col-sm-3">Communications Electronics</div>
+						<div class="company col-sm-4">Twenty Nine Palms, CA</div>
+						<div class="timeframe col-sm-3">Graduated 2004</div>
+						<div class="col-sm-1"><span class="glyphicon glyphicon-menu-down"></span></div>
+					</div><!-- row -->
+				</a>
+				</h2>
+			</div><!-- panel-heading -->
+			<div id="school2" class="panel-collapse collapse out" role="tabpanel" aria-labelledby="schoolHead2">
+				<div class="panel-body">
+					<p class="col-sm-offset-1 col-sm-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis enim rerum debitis, sequi dolores consectetur doloribus rem accusantium repellendus aliquid consequuntur explicabo nemo dolore, veniam quis sapiente nostrum perferendis maxime!</p>
+				</div><!-- panel-body -->
+			</div><!-- panel-collapse -->
+		</div><!--  panel -->
+		<div class="panel panel-default">
+			<div class="panel-heading bg-img-concrete-seamless" role="tab" id="schoolHead3" data-target="#school3">
+				<h2 class="panel-title">
+				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#school3" aria-expanded="false" aria-controls="school3">
+					<div class="row">
+						<div class="positionTitle col-sm-offset-1 col-sm-3">High School</div>
+						<div class="company col-sm-4">Hurricane High School</div>
+						<div class="timeframe col-sm-3">Graduated 2003</div>
+						<div class="col-sm-1"><span class="glyphicon glyphicon-menu-down"></span></div>
+					</div><!-- row -->
+				</a>
+				</h2>
+			</div><!-- panel-heading -->
+			<div id="school3" class="panel-collapse collapse out" role="tabpanel" aria-labelledby="schoolHead3">
+				<div class="panel-body">
+					<p class="col-sm-offset-1 col-sm-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis enim rerum debitis, sequi dolores consectetur doloribus rem accusantium repellendus aliquid consequuntur explicabo nemo dolore, veniam quis sapiente nostrum perferendis maxime!</p>
+				</div><!-- panel-body -->
+			</div><!-- panel-collapse -->
+		</div><!--  panel -->
+	</div><!-- panel-group -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+

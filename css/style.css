@@ -1,0 +1,43 @@
+.padding-top-50 {
+	padding-top: 50px;
+}
+#nav_menu_items {
+	padding: 0;
+}
+.text-center {
+	text-align: center;
+}
+.panel-heading {
+	padding: 15px;
+}
+.padding-top-5 {
+	padding-top: 5px;
+}
+.margin-bottom-5 {
+	margin: 5px;
+}
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+.margin-bottom-150 {
+	margin-bottom: 150px;
+}
+.bg-color-darkgrey {
+	background: darkgrey;
+}
+.bg-color-charcoal {
+	background-color: #505050;
+}
+.bg-img-al {
+	background-image: url(../images/rough-al.jpg);
+	background-repeat: repeat;
+}
+.bg-img-brushed-alu-dark {
+	background-image: url(../images/brushed_alu_dark.png);
+}
+.bg-img-concrete-seamless {
+	background-image: url(../images/concrete_seamless.png);
+}
+.bg-img-green-cup {
+	background-image: url(../images/green_cup.png);
+}
